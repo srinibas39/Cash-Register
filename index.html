@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cash Register</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="heading">Cash Register App</h1>
+      <p class="description">
+        This help the user by telling how can he/she return the change to the
+        customer with minimum number of notes.
+      </p>
+      <div class="c3">
+        <div class="c1">
+          <label for="billAmount">Bill Amount</label>
+          <input type="text" id="billAmount" />
+        </div>
+        <div class="c2">
+          <label class="cashLabel" for="cashAmount">Cash Amount</label>
+          <input type="text" id="cashAmount" />
+        </div>
+        <button class="button">click it to see cash Amount</button>
+        <div class="returnAmount"></div>
+      </div>
+      <table class="table">
+        <tr>
+          <th>No of Notes</th>
+          <td class="note"></td>
+          <td class="note"></td>
+          <td class="note"></td>
+          <td class="note"></td>
+          <td class="note"></td>
+          <td class="note"></td>
+          <td class="note"></td>
+        </tr>
+        <tr>
+          <th>Note</th>
+          <td>2000</td>
+          <td>500</td>
+          <td>100</td>
+          <td>20</td>
+          <td>10</td>
+          <td>5</td>
+          <td>1</td>
+        </tr>
+      </table>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
